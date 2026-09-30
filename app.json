@@ -2,7 +2,7 @@
   "expo": {
     "name": "calculator",
     "slug": "calculator",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,13 +18,12 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#6236ff"
       },
-      "package": "com.mynger.calculator",
-      "edgeToEdgeEnabled": false
+      "package": "com.mynger.calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
