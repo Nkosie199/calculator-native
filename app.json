@@ -2,14 +2,14 @@
   "expo": {
     "name": "calculator",
     "slug": "calculator",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#6236ff"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,13 +18,12 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 2,
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#6236ff"
       },
-      "package": "com.mynger.calculator",
-      "edgeToEdgeEnabled": false
+      "package": "com.mynger.calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,7 +34,18 @@
         "projectId": "bb774e63-eb24-477d-9c9e-790d27e37148"
       }
     },
-    "newArchEnabled": false
+    "newArchEnabled": false,
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#6236ff",
+          "imageWidth": 200
+        }
+      ]
+    ]
   },
   "version": "1.0.1"
 }
